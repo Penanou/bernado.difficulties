@@ -23,6 +23,22 @@ nav ul li a{
     list-style: none;
 
 }
-.wrapp{
-    margin-right: 5%;
+.row{
+    display: flex;
+}
+.wrapper{
+    height: 300px;
+    width: 200px;
+    background-color: black;
+    color: white;
+    margin: 5px;
+}
+.col{
+    box-shadow: inset;
+    background-color: coral;
+    margin: 5px;
+    width: 100%;
+}
+.footer{
+    text-align: center;
 }
